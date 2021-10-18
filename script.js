@@ -75,17 +75,5 @@ removeChicago();
   document.getElementById("past-races").appendChild(lastItems3);
   
   // Part 7
-  
-  const main = document.querySelector(".main");
-  const div = document.createElement("div");
-  const h1 = document.createElement("h1");
-  const p = document.createElement("p");
 
-  div.className = "blog-post purple";
-  h1.textContent = "New York City";
-  p.textContent = "Best City of The World";
-
-  div.appendChild(h1);
-  div.appendChild(p);
-  main.appendChild(div);
 }
