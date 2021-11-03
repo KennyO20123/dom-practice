@@ -25,12 +25,14 @@ window.onload =  function(event) {
   let changeTitle = document.getElementById("main-title"); 
   changeTitle.innerHTML = "Hello, How's it going."
  }
+  changeTitle();
 
   // Part 2
   
-   function changeBackground () {
+   function changeBackground() {
   document.body.style.background = "blue";
   }
+  changeBackground();
 
   // Part 3
 
